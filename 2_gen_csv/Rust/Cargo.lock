@@ -128,14 +128,6 @@ dependencies = [
 ]
 
 [[package]]
-name = "extract"
-version = "0.1.0"
-dependencies = [
- "reqwest",
- "serde",
-]
-
-[[package]]
 name = "fastrand"
 version = "2.1.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -219,6 +211,14 @@ dependencies = [
  "pin-project-lite",
  "pin-utils",
  "slab",
+]
+
+[[package]]
+name = "gen_csv"
+version = "0.1.0"
+dependencies = [
+ "reqwest",
+ "serde",
 ]
 
 [[package]]

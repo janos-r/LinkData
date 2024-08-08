@@ -18,7 +18,7 @@ escape new lines (\n).
 CSV should NEVER be used for data transfer! Especially not for strings, but even
 numbers can have different decimal separators (,) or (.) that again interfere
 with the encoding syntax. And excel should be very strongly avoided at any step
-of the pypeline.
+of the pipeline.
 
 One would have to decide it's own CSV standard based on the use case. For
 example setting very unusual characters for both string and field delimiting.
